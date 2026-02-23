@@ -1,15 +1,18 @@
 {{ define "main" }}
 
-{{/* ── Hero background: process for WebP + fallback ── */}}
+{{/* ── Hero background: process for WebP + fallback (responsive) ── */}}
 {{ $heroBg := resources.Get "images/hero/background-image.jpg" }}
-{{ $heroBgWebp := $heroBg.Resize "1600x webp q80" }}
-{{ $heroBgJpeg := $heroBg.Resize "1600x jpeg q80" }}
+{{ $heroBgWebp800 := $heroBg.Resize "800x webp q78" }}
+{{ $heroBgWebp1600 := $heroBg.Resize "1600x webp q78" }}
+{{ $heroBgJpeg800 := $heroBg.Resize "800x jpeg q78" }}
+{{ $heroBgJpeg1600 := $heroBg.Resize "1600x jpeg q78" }}
 
 <!-- Hero -->
 <section class="hero">
   <picture class="hero-bg-picture">
-    <source type="image/webp" srcset="{{ $heroBgWebp.RelPermalink }}">
-    <img src="{{ $heroBgJpeg.RelPermalink }}" alt="Creme It Up bakery studio" class="hero-bg-img" width="{{ $heroBgJpeg.Width }}" height="{{ $heroBgJpeg.Height }}" fetchpriority="high" decoding="async">
+    <source type="image/webp" srcset="{{ $heroBgWebp800.RelPermalink }} 800w, {{ $heroBgWebp1600.RelPermalink }} 1600w" sizes="100vw">
+    <source type="image/jpeg" srcset="{{ $heroBgJpeg800.RelPermalink }} 800w, {{ $heroBgJpeg1600.RelPermalink }} 1600w" sizes="100vw">
+    <img src="{{ $heroBgJpeg800.RelPermalink }}" alt="Creme It Up bakery studio" class="hero-bg-img" width="{{ $heroBgJpeg1600.Width }}" height="{{ $heroBgJpeg1600.Height }}" fetchpriority="high" decoding="async">
   </picture>
   <div class="hero-overlay"></div>
   <div class="hero-content">
@@ -41,7 +44,7 @@
   <div class="container">
     <div class="about-layout fade">
       <div class="about-image">
-        {{ partial "image.html" (dict "src" "images/hero/hero-chef.jpg" "alt" "Chef Anushka Madaan at Creme It Up bakery studio in Chandigarh" "widths" (slice 400 600 800) "sizes" "(max-width: 768px) 320px, 50vw" "loading" "lazy") }}
+        {{ partial "image.html" (dict "src" "images/hero/hero-chef.jpg" "alt" "Chef Anushka Madaan at Creme It Up bakery studio in Chandigarh" "widths" (slice 400 600 800) "sizes" "(max-width: 768px) 320px, 50vw" "loading" "eager") }}
         <div class="about-image-accent"></div>
       </div>
       <div class="about-text">
