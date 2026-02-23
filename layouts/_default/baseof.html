@@ -62,6 +62,10 @@
   <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 
   {{ block "head" . }}{{ end }}
+
+  <!-- Amplitude Analytics (Session Replay + Autocapture) -->
+  <script src="https://cdn.amplitude.com/script/6221cbd79761859938ab441a3fd0393b.js"></script>
+  <script>window.amplitude.add(window.sessionReplay.plugin({sampleRate: 1}));window.amplitude.init('6221cbd79761859938ab441a3fd0393b', {"fetchRemoteConfig":true,"autocapture":{"attribution":true,"fileDownloads":true,"formInteractions":true,"pageViews":true,"sessions":true,"elementInteractions":true,"networkTracking":true,"webVitals":true,"frustrationInteractions":{"thrashedCursor":true,"errorClicks":true,"deadClicks":true,"rageClicks":true}}});</script>
 </head>
 <body>
   {{ partial "nav.html" . }}
