@@ -31,6 +31,5 @@ We deliver custom cakes and accept workshop students from:
 - **Chandigarh** — all sectors
 - **Mohali** — Phase 1-11, Aerocity, IT City
 - **Panchkula** — all sectors
-- **Zirakpur** — VIP Road, Dhakoli, Lohgarh
-- **Kharar, Derabassi, Dera Bassi**
+- **Zirakpur** — VIP Road, Dhakoli
 - **Across Punjab** for online workshops

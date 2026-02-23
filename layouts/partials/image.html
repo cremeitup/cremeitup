@@ -1,0 +1,66 @@
+{{/*
+  Optimized image partial — WebP with JPEG fallback, responsive srcset, CLS-safe.
+
+  Usage: {{ partial "image.html" (dict "src" "images/hero/chef.jpg" "alt" "Description" "class" "my-class" "sizes" "100vw" "widths" (slice 400 800 1200)) }}
+
+  Parameters:
+    src     — path relative to assets/ (required)
+    alt     — alt text for SEO (required)
+    class   — CSS class (optional)
+    sizes   — sizes attribute (optional, default "100vw")
+    widths  — slice of widths to generate (optional, default 480 800 1200)
+    loading — "lazy" or "eager" (optional, default "lazy")
+    quality — image quality 1-100 (optional, default 82)
+*/}}
+
+{{ $src := .src }}
+{{ $alt := .alt | default "" }}
+{{ $class := .class | default "" }}
+{{ $sizes := .sizes | default "100vw" }}
+{{ $widths := .widths | default (slice 480 800 1200) }}
+{{ $loading := .loading | default "lazy" }}
+{{ $quality := .quality | default 82 }}
+
+{{ $img := resources.Get $src }}
+{{ if $img }}
+  {{/* Generate WebP srcset */}}
+  {{ $webpSrcset := slice }}
+  {{ $jpegSrcset := slice }}
+  {{ $fallback := $img }}
+
+  {{ range $w := $widths }}
+    {{ if ge $img.Width $w }}
+      {{ $resized := $img.Resize (printf "%dx webp q%d" $w $quality) }}
+      {{ $webpSrcset = $webpSrcset | append (printf "%s %dw" $resized.RelPermalink $w) }}
+      {{ $jpegResized := $img.Resize (printf "%dx jpeg q%d" $w $quality) }}
+      {{ $jpegSrcset = $jpegSrcset | append (printf "%s %dw" $jpegResized.RelPermalink $w) }}
+      {{ $fallback = $jpegResized }}
+    {{ else }}
+      {{/* Image smaller than requested width — use original size */}}
+      {{ $resized := $img.Resize (printf "%dx webp q%d" $img.Width $quality) }}
+      {{ $webpSrcset = $webpSrcset | append (printf "%s %dw" $resized.RelPermalink $img.Width) }}
+      {{ $jpegResized := $img.Resize (printf "%dx jpeg q%d" $img.Width $quality) }}
+      {{ $jpegSrcset = $jpegSrcset | append (printf "%s %dw" $jpegResized.RelPermalink $img.Width) }}
+      {{ $fallback = $jpegResized }}
+    {{ end }}
+  {{ end }}
+
+  <picture>
+    <source
+      type="image/webp"
+      srcset="{{ delimit $webpSrcset ", " }}"
+      sizes="{{ $sizes }}">
+    <source
+      type="image/jpeg"
+      srcset="{{ delimit $jpegSrcset ", " }}"
+      sizes="{{ $sizes }}">
+    <img
+      src="{{ $fallback.RelPermalink }}"
+      alt="{{ $alt }}"
+      width="{{ $fallback.Width }}"
+      height="{{ $fallback.Height }}"
+      {{ with $class }}class="{{ . }}"{{ end }}
+      loading="{{ $loading }}"
+      decoding="async">
+  </picture>
+{{ end }}

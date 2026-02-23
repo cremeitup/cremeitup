@@ -3,11 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | Creme It Up Chandigarh{{ end }}</title>
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | Creme It Up{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <meta name="author" content="{{ .Site.Params.author }}">
   <meta name="keywords" content="{{ if .Params.keywords }}{{ delimit .Params.keywords ", " }}{{ else }}{{ with .Site.Params.seo.keywords }}{{ delimit . ", " }}{{ end }}{{ end }}">
   <link rel="canonical" href="{{ .Permalink }}">
+
+  <!-- Favicon -->
+  {{ $logo := resources.Get "images/logo.png" }}
+  {{ $favicon32 := $logo.Fill "32x32 png" }}
+  {{ $favicon16 := $logo.Fill "16x16 png" }}
+  {{ $apple := $logo.Fill "180x180 png" }}
+  {{ $icon192 := $logo.Fill "192x192 png" }}
+  {{ $icon512 := $logo.Fill "512x512 png" }}
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ $favicon32.RelPermalink }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ $favicon16.RelPermalink }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ $apple.RelPermalink }}">
+  <link rel="icon" type="image/png" sizes="192x192" href="{{ $icon192.RelPermalink }}">
 
   <!-- Open Graph -->
   <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">

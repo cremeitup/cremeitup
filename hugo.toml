@@ -1,12 +1,12 @@
 baseURL = "https://www.cremeitup.in/"
 languageCode = "en-in"
-title = "Creme It Up | Best Bakery & Baking Classes in Chandigarh"
+title = "Creme It Up | Premium Bakery & Baking Classes"
 summaryLength = 30
 paginate = 10
 enableRobotsTXT = true
 
 [params]
-  description = "Creme It Up is a premium bakery and baking workshop studio in Sector 46C, Chandigarh. Custom cakes, pastries, breads, and hands-on baking classes by Chef Anushka Madaan."
+  description = "Creme It Up is a premium bakery and baking workshop studio in Chandigarh. Custom cakes, pastries, breads, and hands-on baking classes by Chef Anushka Madaan. Serving Chandigarh, Mohali, and Panchkula."
   author = "Anushka Madaan"
   phone = "+91 6284392288"
   email = "Cremeitup@gmail.com"
@@ -16,10 +16,10 @@ enableRobotsTXT = true
   linktree = "https://linktr.ee/cremeitup"
   tagline = "Where baking dreams come true"
   locale = "en_IN"
-  ogImage = "/images/og-default.jpg"
+  ogImage = "/images/og-default.png"
 
 [params.seo]
-  keywords = ["bakery in chandigarh", "best bakery chandigarh", "creme it up", "cremeitup", "baking classes chandigarh", "cake shop chandigarh", "custom cakes chandigarh", "pastry shop near me chandigarh", "bakers near me chandigarh mohali panchkula", "wedding cake chandigarh", "baking workshop chandigarh", "french pastries chandigarh", "bread bakery chandigarh", "cake delivery chandigarh"]
+  keywords = ["creme it up", "cremeitup", "bakery in chandigarh", "best bakery chandigarh", "baking classes chandigarh", "custom cakes chandigarh", "cake shop chandigarh", "pastry shop chandigarh mohali", "bakers near me chandigarh mohali panchkula", "baking workshop chandigarh", "french pastries chandigarh", "cake delivery chandigarh mohali panchkula", "eggless baking classes", "chef anushka madaan"]
 
 [taxonomies]
   tag = "tags"

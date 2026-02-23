@@ -1,7 +1,16 @@
 {{ define "main" }}
 
+{{/* ── Hero background: process for WebP + fallback ── */}}
+{{ $heroBg := resources.Get "images/hero/background-image.jpg" }}
+{{ $heroBgWebp := $heroBg.Resize "1600x webp q80" }}
+{{ $heroBgJpeg := $heroBg.Resize "1600x jpeg q80" }}
+
 <!-- Hero -->
-<section class="hero" style="background-image:url('https://images.unsplash.com/photo-1517433670267-08bbd4be890f?w=1600&h=900&fit=crop')">
+<section class="hero">
+  <picture class="hero-bg-picture">
+    <source type="image/webp" srcset="{{ $heroBgWebp.RelPermalink }}">
+    <img src="{{ $heroBgJpeg.RelPermalink }}" alt="Creme It Up bakery studio" class="hero-bg-img" width="{{ $heroBgJpeg.Width }}" height="{{ $heroBgJpeg.Height }}" fetchpriority="high" decoding="async">
+  </picture>
   <div class="hero-overlay"></div>
   <div class="hero-content">
     <p class="hero-label">Chandigarh's Finest Bakery</p>
@@ -22,8 +31,8 @@
 <!-- Scrolling Marquee -->
 <div class="marquee">
   <div class="marquee-track">
-    <span>Custom Cakes&nbsp; · &nbsp;French Pastries&nbsp; · &nbsp;Baking Workshops&nbsp; · &nbsp;Artisan Breads&nbsp; · &nbsp;Chocolate Art&nbsp; · &nbsp;Wedding Cakes&nbsp; · &nbsp;Chandigarh&nbsp; · &nbsp;</span>
-    <span>Custom Cakes&nbsp; · &nbsp;French Pastries&nbsp; · &nbsp;Baking Workshops&nbsp; · &nbsp;Artisan Breads&nbsp; · &nbsp;Chocolate Art&nbsp; · &nbsp;Wedding Cakes&nbsp; · &nbsp;Chandigarh&nbsp; · &nbsp;</span>
+    <span>Custom Cakes&nbsp; · &nbsp;French Pastries&nbsp; · &nbsp;Baking Workshops&nbsp; · &nbsp;Artisan Breads&nbsp; · &nbsp;Chocolate Art&nbsp; · &nbsp;Wedding Cakes&nbsp; · &nbsp;Eggless Baking&nbsp; · &nbsp;</span>
+    <span>Custom Cakes&nbsp; · &nbsp;French Pastries&nbsp; · &nbsp;Baking Workshops&nbsp; · &nbsp;Artisan Breads&nbsp; · &nbsp;Chocolate Art&nbsp; · &nbsp;Wedding Cakes&nbsp; · &nbsp;Eggless Baking&nbsp; · &nbsp;</span>
   </div>
 </div>
 
@@ -32,14 +41,14 @@
   <div class="container">
     <div class="about-layout fade">
       <div class="about-image">
-        <img src="https://images.unsplash.com/photo-1556217477-d325251ece38?w=600&h=800&fit=crop" alt="Chef Anushka Madaan at Creme It Up bakery studio in Chandigarh" loading="lazy">
+        {{ partial "image.html" (dict "src" "images/hero/hero-chef.jpg" "alt" "Chef Anushka Madaan at Creme It Up bakery studio" "widths" (slice 400 600 800) "sizes" "(max-width: 768px) 320px, 50vw" "loading" "lazy") }}
         <div class="about-image-accent"></div>
       </div>
       <div class="about-text">
         <p class="label">The Studio</p>
         <h2>Crafted by<br><em>Anushka Madaan</em></h2>
-        <p>With 5+ years of pastry experience, Chef Anushka creates desserts that balance artistry with flavour. From delicate French pastries to show-stopping wedding cakes — every creation is baked fresh at our Sector 46C studio.</p>
-        <p>Beyond baking, she teaches the craft through intimate workshops that have trained hundreds of students across the Chandigarh tricity.</p>
+        <p>With 5+ years of pastry experience, Chef Anushka creates desserts that balance artistry with flavour. From delicate French pastries to show-stopping wedding cakes — every creation is baked fresh at our Sector 46C studio in Chandigarh.</p>
+        <p>Beyond baking, she teaches the craft through intimate workshops that have trained hundreds of students across Chandigarh, Mohali, and Panchkula.</p>
         <a href="/about/" class="text-link">Learn more about us &rarr;</a>
       </div>
     </div>
@@ -75,7 +84,7 @@
         <span class="offering-num">03</span>
         <div>
           <h3>French Pastries</h3>
-          <p>Authentic croissants, macarons, eclairs, and tarts. The finest French-style patisserie experience in the tricity.</p>
+          <p>Authentic croissants, macarons, eclairs, and tarts. A refined French-style patisserie experience.</p>
         </div>
       </div>
       <div class="offering-item">
@@ -89,14 +98,14 @@
         <span class="offering-num">05</span>
         <div>
           <h3>Chocolate Art</h3>
-          <p>Handcrafted bonbons, truffles, and chocolate showpieces. Premium Belgian chocolate creations for gifting and events.</p>
+          <p>Handcrafted bonbons, truffles, and chocolate showpieces. Premium Belgian chocolate creations for gifting and special occasions.</p>
         </div>
       </div>
       <div class="offering-item">
         <span class="offering-num">06</span>
         <div>
-          <h3>Corporate Events</h3>
-          <p>Team-building baking workshops and curated dessert tables for corporate events across the Chandigarh tricity.</p>
+          <h3>Dessert Tables</h3>
+          <p>Curated dessert spreads for weddings, parties, and celebrations — designed to impress.</p>
         </div>
       </div>
     </div>
@@ -111,48 +120,55 @@
       <h2>Gallery</h2>
     </div>
     <div class="gallery-mosaic fade">
-      <div class="gallery-item">
-        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500&h=650&fit=crop" alt="Custom celebration cake from Creme It Up bakery Chandigarh" loading="lazy">
-      </div>
-      <div class="gallery-item">
-        <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=500&h=340&fit=crop" alt="Fresh baked cookies at Creme It Up Chandigarh" loading="lazy">
-      </div>
-      <div class="gallery-item">
-        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=500&h=500&fit=crop" alt="Artisan bread loaves from Creme It Up bakery" loading="lazy">
-      </div>
-      <div class="gallery-item">
-        <img src="https://images.unsplash.com/photo-1587668178277-295251f900ce?w=500&h=340&fit=crop" alt="French macarons handmade at Creme It Up Chandigarh" loading="lazy">
-      </div>
-      <div class="gallery-item">
-        <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=500&h=650&fit=crop" alt="Wedding cake crafted at Creme It Up Chandigarh" loading="lazy">
-      </div>
-      <div class="gallery-item">
-        <img src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=500&h=340&fit=crop" alt="Chocolate truffles from Creme It Up bakery Chandigarh" loading="lazy">
-      </div>
+      {{ $galleryItems := slice
+        (dict "src" "images/gallery/assorted-sweets.jpg" "alt" "Handcrafted assorted sweet treats from Creme It Up")
+        (dict "src" "images/gallery/cookies.jpg" "alt" "Fresh baked cookies at Creme It Up")
+        (dict "src" "images/gallery/gallery-whisk.jpg" "alt" "Baking tools and preparation at Creme It Up studio")
+        (dict "src" "images/gallery/sweets.jpg" "alt" "Premium sweet creations by Chef Anushka Madaan")
+        (dict "src" "images/gallery/gallery-donut.jpg" "alt" "Freshly made donuts from Creme It Up")
+        (dict "src" "images/gallery/coffee-beans.jpg" "alt" "Coffee-infused dessert decorations at Creme It Up")
+      }}
+      {{ range $galleryItems }}
+        {{ $img := resources.Get .src }}
+        {{ if $img }}
+          {{ $webp := $img.Fill "500x500 webp q82" }}
+          {{ $jpeg := $img.Fill "500x500 jpeg q82" }}
+          <div class="gallery-item">
+            <picture>
+              <source type="image/webp" srcset="{{ $webp.RelPermalink }}">
+              <img src="{{ $jpeg.RelPermalink }}" alt="{{ .alt }}" width="500" height="500" loading="lazy" decoding="async">
+            </picture>
+          </div>
+        {{ end }}
+      {{ end }}
+    </div>
+    <div style="text-align:center;margin-top:2.5rem;">
+      <a href="/gallery/" class="btn btn-outline-dark">View Full Gallery</a>
     </div>
   </div>
 </section>
 
-<!-- Testimonial -->
-<section class="section section-linen">
-  <div class="container testimonial-wrap fade">
-    <div class="big-quote">&ldquo;</div>
-    <blockquote>The best baking workshop I've attended in Chandigarh. Anushka's teaching style makes even complex techniques feel easy. I walked in knowing nothing and left making croissants from scratch.</blockquote>
-    <cite>&mdash; Megha Gupta</cite>
-  </div>
-</section>
-
 <!-- Blog -->
-<section class="section">
+<section class="section section-linen">
   <div class="container">
     <div class="section-heading fade">
       <p class="label">Journal</p>
       <h2>Latest Stories</h2>
     </div>
     <div class="blog-list fade">
+      {{ $fallbackImg := resources.Get "images/gallery/gallery-cookies.jpg" }}
+      {{ $fallbackWebp := $fallbackImg.Fill "200x140 webp q80" }}
+      {{ $fallbackJpeg := $fallbackImg.Fill "200x140 jpeg q80" }}
       {{ range first 4 (where .Site.RegularPages "Section" "blog") }}
       <a href="{{ .Permalink }}" class="blog-row">
-        <img src="{{ with .Params.image }}{{ . }}{{ else }}https://images.unsplash.com/photo-1486427944544-d2c246c4df14?w=200&h=140&fit=crop{{ end }}" alt="{{ .Title }}" loading="lazy">
+        {{ with .Params.image }}
+          <img src="{{ . }}" alt="{{ $.Title }}" width="200" height="140" loading="lazy" decoding="async">
+        {{ else }}
+          <picture>
+            <source type="image/webp" srcset="{{ $fallbackWebp.RelPermalink }}">
+            <img src="{{ $fallbackJpeg.RelPermalink }}" alt="{{ .Title }}" width="200" height="140" loading="lazy" decoding="async">
+          </picture>
+        {{ end }}
         <div>
           <time>{{ .Date.Format "Jan 2, 2006" }}</time>
           <h3>{{ .Title }}</h3>
@@ -171,10 +187,10 @@
 <section class="cta-warm">
   <div class="container fade">
     <h2>Let's Create<br>Something <em>Sweet</em></h2>
-    <p>Join our next workshop or order a custom cake. We serve Chandigarh, Mohali, Panchkula, and beyond.</p>
+    <p>Join our next workshop or order a custom cake. Serving Chandigarh, Mohali, Panchkula, and beyond.</p>
     <div class="cta-actions">
-      <a href="/contact/" class="btn btn-light">Get in Touch</a>
-      <a href="https://wa.me/{{ .Site.Params.whatsapp }}" class="btn btn-ghost" target="_blank" rel="noopener">WhatsApp Us</a>
+      <a href="/contact/" class="btn btn-light">Reach Us</a>
+      <a href="{{ .Site.Params.instagram }}" class="btn btn-ghost" target="_blank" rel="noopener">Follow Us on Instagram</a>
     </div>
   </div>
 </section>

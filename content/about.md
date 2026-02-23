@@ -1,6 +1,6 @@
 ---
 title: "About Creme It Up - Chandigarh's Finest Bakery"
-description: "Learn about Creme It Up, Chandigarh's premium bakery and baking workshop studio founded by Chef Anushka Madaan. French pastries, custom cakes, and baking classes in Sector 46C."
+description: "Learn about Creme It Up, Chandigarh's premium bakery and baking workshop studio founded by Chef Anushka Madaan. French pastries, custom cakes, and baking classes in Chandigarh, Mohali, and Panchkula."
 layout: "single"
 ---
 

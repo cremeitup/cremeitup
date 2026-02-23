@@ -1,0 +1,58 @@
+{{ define "main" }}
+
+<div class="page-header">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p>{{ . }}</p>{{ end }}
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    {{ $galleryItems := slice
+      (dict "src" "images/gallery/assorted-sweets.jpg" "alt" "Handcrafted assorted sweet treats from Creme It Up" "caption" "Assorted Sweet Treats")
+      (dict "src" "images/gallery/assorted-sweets-2.jpg" "alt" "Colorful sweet collection by Chef Anushka Madaan" "caption" "Sweet Collection")
+      (dict "src" "images/gallery/cookies.jpg" "alt" "Fresh baked cookies at Creme It Up" "caption" "Fresh Baked Cookies")
+      (dict "src" "images/gallery/gallery-cookies.jpg" "alt" "Artisan cookies handmade at Creme It Up studio" "caption" "Artisan Cookies")
+      (dict "src" "images/gallery/gallery-donut.jpg" "alt" "Freshly made donuts from Creme It Up" "caption" "Fresh Donuts")
+      (dict "src" "images/gallery/gallery-whisk.jpg" "alt" "Baking tools and preparation at Creme It Up studio" "caption" "Behind the Scenes")
+      (dict "src" "images/gallery/coffee-beans.jpg" "alt" "Coffee-infused dessert decorations at Creme It Up" "caption" "Coffee Creations")
+      (dict "src" "images/gallery/eating-cookies.jpg" "alt" "Enjoying fresh cookies from Creme It Up" "caption" "Moments of Joy")
+      (dict "src" "images/gallery/showing-pie.jpg" "alt" "Showcasing fresh pie at Creme It Up" "caption" "Fresh from the Oven")
+      (dict "src" "images/gallery/sweets.jpg" "alt" "Premium sweet creations by Chef Anushka Madaan" "caption" "Sweet Creations")
+      (dict "src" "images/gallery/sweets-2.jpg" "alt" "Gourmet desserts from Creme It Up" "caption" "Gourmet Desserts")
+      (dict "src" "images/gallery/sweets-3.jpg" "alt" "Handcrafted gourmet sweets at Creme It Up" "caption" "Artisan Sweets")
+    }}
+
+    <div class="gallery-page-grid fade">
+      {{ range $galleryItems }}
+        {{ $img := resources.Get .src }}
+        {{ if $img }}
+          {{ $webp := $img.Fill "600x600 webp q82" }}
+          {{ $jpeg := $img.Fill "600x600 jpeg q82" }}
+          <div class="gallery-page-item">
+            <picture>
+              <source type="image/webp" srcset="{{ $webp.RelPermalink }}">
+              <img src="{{ $jpeg.RelPermalink }}" alt="{{ .alt }}" width="600" height="600" loading="lazy" decoding="async">
+            </picture>
+            <div class="gallery-page-caption">{{ .caption }}</div>
+          </div>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-warm">
+  <div class="container fade">
+    <h2>Want Something <em>Custom</em>?</h2>
+    <p>Let us create a bespoke cake or dessert table for your special occasion.</p>
+    <div class="cta-actions">
+      <a href="/contact/" class="btn btn-light">Reach Us</a>
+      <a href="{{ .Site.Params.instagram }}" class="btn btn-ghost" target="_blank" rel="noopener">Follow Us on Instagram</a>
+    </div>
+  </div>
+</section>
+
+{{ end }}

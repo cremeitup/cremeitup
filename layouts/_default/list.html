@@ -10,11 +10,21 @@
 <section class="section">
   <div class="container">
     {{ if eq .Section "blog" }}
+    {{ $fallbackImg := resources.Get "images/gallery/gallery-cookies.jpg" }}
+    {{ $fallbackWebp := $fallbackImg.Fill "600x380 webp q80" }}
+    {{ $fallbackJpeg := $fallbackImg.Fill "600x380 jpeg q80" }}
     <div class="blog-grid">
       {{ range .Pages }}
       <a href="{{ .Permalink }}" class="blog-card fade">
         <div class="blog-card-img">
-          <img src="{{ with .Params.image }}{{ . }}{{ else }}https://images.unsplash.com/photo-1486427944544-d2c246c4df14?w=600&h=380&fit=crop{{ end }}" alt="{{ .Title }}" loading="lazy">
+          {{ with .Params.image }}
+            <img src="{{ . }}" alt="{{ $.Title }}" width="600" height="380" loading="lazy" decoding="async">
+          {{ else }}
+            <picture>
+              <source type="image/webp" srcset="{{ $fallbackWebp.RelPermalink }}">
+              <img src="{{ $fallbackJpeg.RelPermalink }}" alt="{{ .Title }}" width="600" height="380" loading="lazy" decoding="async">
+            </picture>
+          {{ end }}
         </div>
         <div>
           <time>{{ .Date.Format "Jan 2, 2006" }}</time>
