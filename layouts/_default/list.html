@@ -10,7 +10,7 @@
 <section class="section">
   <div class="container">
     {{ if eq .Section "blog" }}
-    {{ $fallbackImg := resources.Get "images/gallery/gallery-cookies.jpg" }}
+    {{ $fallbackImg := resources.Get "images/gallery/hazelnut-cookies.jpg" }}
     {{ $fallbackWebp := $fallbackImg.Fill "600x380 webp q80" }}
     {{ $fallbackJpeg := $fallbackImg.Fill "600x380 jpeg q80" }}
     <div class="blog-grid">

@@ -3,7 +3,7 @@ title: "Baking Classes in Chandigarh for Beginners: Everything You Need to Know"
 slug: "baking-classes-chandigarh-beginners"
 date: 2025-09-01
 description: "Want to learn baking in Chandigarh? Here's a complete guide to beginner-friendly baking classes, workshops, and courses in Chandigarh, Mohali, and Panchkula."
-image: "images/gallery/gallery-whisk.jpg"
+image: "images/gallery/garlic-bread-rolls.jpg"
 tags: ["baking classes", "workshops", "chandigarh"]
 keywords: ["baking classes chandigarh", "baking workshop chandigarh", "learn baking chandigarh", "baking course chandigarh mohali", "beginner baking class near me"]
 ---

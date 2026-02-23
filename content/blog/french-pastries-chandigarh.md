@@ -3,7 +3,7 @@ title: "Where to Find Authentic French Pastries in Chandigarh"
 slug: "french-pastries-chandigarh"
 date: 2025-10-01
 description: "Craving real croissants, macarons, or eclairs in Chandigarh? Here's where to find authentic French pastries made with proper technique and premium ingredients in the tricity."
-image: "images/gallery/sweets-2.jpg"
+image: "images/gallery/tiramisu.jpg"
 tags: ["french pastries", "chandigarh", "patisserie"]
 keywords: ["french pastries chandigarh", "croissants chandigarh", "macarons chandigarh", "patisserie chandigarh", "eclairs chandigarh"]
 ---

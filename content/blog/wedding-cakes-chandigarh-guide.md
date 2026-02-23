@@ -3,7 +3,7 @@ title: "Wedding Cakes in Chandigarh: Trends, Pricing & How to Choose Your Baker"
 slug: "wedding-cakes-chandigarh-guide"
 date: 2025-10-15
 description: "Planning a wedding in Chandigarh? Everything you need to know about wedding cakes  - trends, pricing, flavours, and how to find the perfect baker in the tricity."
-image: "images/gallery/sweets-3.jpg"
+image: "images/gallery/vanilla-berry-cake.jpg"
 tags: ["wedding cakes", "chandigarh", "celebrations"]
 keywords: ["wedding cake chandigarh", "wedding cake price chandigarh", "best wedding cake chandigarh mohali", "engagement cake chandigarh", "designer cake chandigarh"]
 ---

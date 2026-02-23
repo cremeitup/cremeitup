@@ -189,12 +189,12 @@
     <p class="section-intro fade">A glimpse into what comes out of our Chandigarh studio -from rich chocolate desserts and buttery cookies to beautifully styled sweet boxes. Every item is handcrafted by Chef Anushka using the finest ingredients.</p>
     <div class="gallery-mosaic fade">
       {{ $galleryItems := slice
-        (dict "src" "images/gallery/assorted-sweets.jpg" "alt" "Handcrafted assorted sweet treats from Creme It Up bakery Chandigarh")
-        (dict "src" "images/gallery/cookies.jpg" "alt" "Fresh baked cookies at Creme It Up Chandigarh")
-        (dict "src" "images/gallery/gallery-whisk.jpg" "alt" "Baking tools and preparation at Creme It Up studio")
-        (dict "src" "images/gallery/sweets.jpg" "alt" "Premium sweet creations by Chef Anushka Madaan")
-        (dict "src" "images/gallery/gallery-donut.jpg" "alt" "Freshly made donuts from Creme It Up bakery")
-        (dict "src" "images/gallery/coffee-beans.jpg" "alt" "Coffee-infused dessert decorations at Creme It Up")
+        (dict "src" "images/gallery/chocolate-hazelnut-cake.jpg" "alt" "Chocolate hazelnut cake with gold leaf by Chef Anushka Madaan Chandigarh")
+        (dict "src" "images/gallery/hazelnut-cookies.jpg" "alt" "Handmade hazelnut chocolate chip cookies from Creme It Up Chandigarh")
+        (dict "src" "images/gallery/vanilla-berry-cake.jpg" "alt" "Vanilla cake with fresh strawberries blueberries and edible flowers Creme It Up")
+        (dict "src" "images/gallery/garlic-bread-rolls.jpg" "alt" "Fresh baked garlic pesto bread rolls from Creme It Up bakery Chandigarh")
+        (dict "src" "images/gallery/berry-cheesecake.jpg" "alt" "Berry cheesecake with blueberries and strawberries Creme It Up Chandigarh")
+        (dict "src" "images/gallery/brownies.jpg" "alt" "Handmade chocolate brownies from Creme It Up bakery Chandigarh")
       }}
       {{ range $galleryItems }}
         {{ $img := resources.Get .src }}
@@ -225,7 +225,7 @@
     </div>
     <p class="section-intro fade">Tips, guides, and stories from our studio. Whether you're looking for the best bakery in Chandigarh or want to learn baking basics at home -our blog has you covered.</p>
     <div class="blog-list fade">
-      {{ $fallbackImg := resources.Get "images/gallery/gallery-cookies.jpg" }}
+      {{ $fallbackImg := resources.Get "images/gallery/hazelnut-cookies.jpg" }}
       {{ $fallbackWebp := $fallbackImg.Fill "200x140 webp q80" }}
       {{ $fallbackJpeg := $fallbackImg.Fill "200x140 jpeg q80" }}
       {{ range first 4 (where .Site.RegularPages "Section" "blog") }}

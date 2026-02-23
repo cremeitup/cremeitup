@@ -3,7 +3,7 @@ title: "How to Order a Custom Cake in Chandigarh: The Complete Guide"
 slug: "custom-cakes-chandigarh-ordering-guide"
 date: 2025-09-10
 description: "Everything you need to know about ordering custom cakes in Chandigarh  - pricing, lead times, flavours, and how to choose the right baker for birthdays, weddings, and celebrations."
-image: "images/gallery/sweets.jpg"
+image: "images/gallery/brownies.jpg"
 tags: ["custom cakes", "wedding cakes", "chandigarh"]
 keywords: ["custom cake chandigarh", "birthday cake order chandigarh", "wedding cake chandigarh", "cake delivery chandigarh mohali", "cake shop near me chandigarh"]
 ---

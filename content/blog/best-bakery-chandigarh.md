@@ -3,7 +3,7 @@ title: "Best Bakeries in Chandigarh: A Local's Guide to the Finest Cakes & Pastr
 slug: "best-bakery-chandigarh"
 date: 2025-08-15
 description: "Looking for the best bakery in Chandigarh? From custom cakes to French pastries, here's a local guide to the top bakeries in the city  - including boutique studios you won't find on Google Maps."
-image: "images/gallery/assorted-sweets.jpg"
+image: "images/gallery/chocolate-hazelnut-cake.jpg"
 tags: ["bakery chandigarh", "best bakery", "cakes chandigarh"]
 keywords: ["best bakery in chandigarh", "bakery near me chandigarh", "top bakeries chandigarh", "cake shop chandigarh", "chandigarh bakery"]
 ---
