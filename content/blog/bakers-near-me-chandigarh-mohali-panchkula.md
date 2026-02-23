@@ -35,7 +35,7 @@ Coffee shops with a baking component. Good for pastries with your latte, but oft
 ### Chandigarh
 - **Sector 17**  - Walk-in bakery shops along the main market
 - **Sector 35**  - Food street with mixed options
-- **Sector 46-47**  - Boutique studios including Creme It Up
+- **Sector 46-47**  - Boutique studios including Crème It Up
 - **Sector 8-9**  - Near the lake, good breakfast bakeries
 
 ### Mohali
@@ -47,9 +47,9 @@ Coffee shops with a baking component. Good for pastries with your latte, but oft
 - **Sector 5 & 9**  - Main commercial areas
 - **Sector 20**  - Near the market, walk-in options
 
-## What Makes Creme It Up Different?
+## What Makes Crème It Up Different?
 
-Located in **Sector 46C, Chandigarh**, Creme It Up is a boutique bakery studio run by Chef Anushka Madaan. We're not a chain  - every cake, pastry, and loaf of bread is handmade to order using premium ingredients.
+Located in **Sector 46C, Chandigarh**, Crème It Up is a boutique bakery studio run by Chef Anushka Madaan. We're not a chain  - every cake, pastry, and loaf of bread is handmade to order using premium ingredients.
 
 We serve all of:
 - Chandigarh (all sectors)

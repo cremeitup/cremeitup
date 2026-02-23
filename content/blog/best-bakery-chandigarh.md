@@ -23,7 +23,7 @@ Not all bakeries are created equal. The best ones share a few qualities:
 
 The tricity (Chandigarh, Mohali, Panchkula) has seen a wave of small, chef-driven bakeries that focus on quality over volume. These are the places where your birthday cake is baked the same day, your croissants are laminated by hand, and your bread has a proper crust.
 
-**Creme It Up** in Sector 46C is one such studio. Founded by Chef Anushka Madaan, it's become a go-to for custom celebration cakes, French pastries, and baking workshops. What sets it apart is the focus on teaching  - you can learn to bake the very things you're ordering.
+**Crème It Up** in Sector 46C is one such studio. Founded by Chef Anushka Madaan, it's become a go-to for custom celebration cakes, French pastries, and baking workshops. What sets it apart is the focus on teaching  - you can learn to bake the very things you're ordering.
 
 ## What to Look For When Choosing a Bakery
 
@@ -36,11 +36,11 @@ The tricity (Chandigarh, Mohali, Panchkula) has seen a wave of small, chef-drive
 
 - **Sector 17 & 22**  - The commercial heart, good for walk-in shops
 - **Sector 35**  - Popular food street with bakery options
-- **Sector 46-47**  - Home to boutique studios like Creme It Up
+- **Sector 46-47**  - Home to boutique studios like Crème It Up
 - **IT Park / Industrial Area Phase 1**  - Growing area in Mohali with new bakeries
 
 Whether you're looking for a birthday cake, a box of macarons, or a proper sourdough loaf  - Chandigarh has you covered. The key is knowing where to look beyond the obvious chains.
 
 ---
 
-*Looking for a custom cake or baking class in Chandigarh? [Contact Creme It Up](/contact/)  - we'd love to bake for you.*
+*Looking for a custom cake or baking class in Chandigarh? [Contact Crème It Up](/contact/)  - we'd love to bake for you.*

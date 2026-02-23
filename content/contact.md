@@ -1,6 +1,6 @@
 ---
-title: "Contact Creme It Up - Bakery in Chandigarh"
-description: "Get in touch with Creme It Up for custom cake orders, baking workshops, and enquiries. Located in Sector 46C, Chandigarh. Serving Mohali, Panchkula, and Punjab."
+title: "Contact Crème It Up - Bakery in Chandigarh"
+description: "Get in touch with Crème It Up for custom cake orders, baking workshops, and enquiries. Located in Sector 46C, Chandigarh. Serving Mohali, Panchkula, and Punjab."
 layout: "single"
 ---
 
@@ -10,7 +10,7 @@ We'd love to hear from you. Whether you want to order a custom cake, book a baki
 
 ### Visit Our Studio
 
-**Creme It Up Studio**
+**Crème It Up Studio**
 Sector 46 C, Chandigarh 160047
 
 ### Call or Message
@@ -24,12 +24,3 @@ Sector 46 C, Chandigarh 160047
 - [Instagram -@creme.it_up](https://www.instagram.com/creme.it_up)
 - [Linktree](https://linktr.ee/cremeitup)
 
-### Areas We Serve
-
-We deliver custom cakes and accept workshop students from:
-
-- **Chandigarh** -all sectors
-- **Mohali** -Phase 1-11, Aerocity, IT City
-- **Panchkula** -all sectors
-- **Zirakpur** -VIP Road, Dhakoli
-- **Across Punjab** for online workshops

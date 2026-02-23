@@ -13,7 +13,7 @@ If you've been searching for **baking classes in Chandigarh**, you've probably n
 ## Types of Baking Classes Available in Chandigarh
 
 ### 1. One-Day Workshops
-Perfect for beginners. You'll learn 3-5 recipes in a single session, usually focused on a theme  - cookies, cakes, or breads. Most workshops in Chandigarh cost between ₹999 and ₹3,000.
+Perfect for beginners. You'll learn 3-5 recipes in a single session, usually focused on a theme  - cookies, cakes, or breads.
 
 ### 2. Multi-Day Professional Courses
 If you're serious about baking as a career, look for structured courses that cover technique, not just recipes. These typically run 3-7 days and include fundamentals like:
@@ -35,21 +35,12 @@ Great if you're in Mohali, Panchkula, or elsewhere in Punjab and can't travel to
 
 ## Where to Take Baking Classes in Chandigarh
 
-**Creme It Up** in Sector 46C offers both in-person and online workshops taught by Chef Anushka Madaan. Classes are kept small (8-12 students) so everyone gets individual attention. Popular workshops include:
+**Crème It Up** in Sector 46C offers both in-person and online workshops taught by Chef Anushka Madaan. Classes are kept small (8-12 students) so everyone gets individual attention. Popular workshops include:
 
 - Festive Masterclass (Indian + Western fusion desserts)
 - French Pastry Fundamentals
 - Bread Making for Beginners
 - Cake Decorating Essentials
-
-## How Much Do Baking Classes Cost in Chandigarh?
-
-| Type | Price Range | Duration |
-|------|------------|----------|
-| One-day workshop | ₹999 - ₹3,000 | 3-5 hours |
-| Weekend intensive | ₹3,000 - ₹8,000 | 2 days |
-| Professional course | ₹8,000 - ₹25,000 | 5-14 days |
-| Online class | ₹999 - ₹2,500 | 2-4 hours |
 
 ## Tips for Your First Baking Class
 
@@ -60,4 +51,4 @@ Great if you're in Mohali, Panchkula, or elsewhere in Punjab and can't travel to
 
 ---
 
-*Ready to start? Check out [upcoming classes at Creme It Up](/classes/) or [message us on WhatsApp](https://wa.me/916284392288).*
+*Ready to start? Check out [upcoming classes at Crème It Up](/classes/) or [message us on WhatsApp](https://wa.me/916284392288).*

@@ -1,6 +1,6 @@
 ---
 title: "Baking Classes & Workshops in Chandigarh"
-description: "Join hands-on baking workshops at Creme It Up, Chandigarh. Learn cake decorating, bread making, pastry arts, and more with Chef Anushka Madaan. Online and in-person classes for Chandigarh, Mohali, and Panchkula."
+description: "Join hands-on baking workshops at Crème It Up, Chandigarh. Learn cake decorating, bread making, pastry arts, and more with Chef Anushka Madaan. Online and in-person classes for Chandigarh, Mohali, and Panchkula."
 layout: "single"
 ---
 
@@ -34,7 +34,7 @@ Whether you're a complete beginner looking for your first baking class, or an ex
 
 - Step-by-step recipe booklets
 - WhatsApp support after the class
-- Troubleshooting tips and costing guidance
+- Troubleshooting tips and guidance
 - Packaging and marketing tips for aspiring home bakers
 
 Kindly refer to the PDF to get an in-depth knowledge about all the modules.
@@ -42,5 +42,3 @@ Kindly refer to the PDF to get an in-depth knowledge about all the modules.
 ### How to Book
 
 Contact us on WhatsApp at [+91 6284392288](https://wa.me/916284392288) to check upcoming workshop dates and reserve your spot.
-
-We welcome students from Chandigarh, Mohali, Panchkula, Zirakpur, and across Punjab.

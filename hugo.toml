@@ -1,17 +1,17 @@
 baseURL = "https://www.cremeitup.in/"
 languageCode = "en-in"
-title = "Creme It Up | Premium Bakery & Baking Classes"
+title = "Crème It Up | Premium Bakery & Baking Classes"
 summaryLength = 30
 paginate = 10
 enableRobotsTXT = true
 
 [params]
-  description = "Creme It Up is a premium bakery and baking workshop studio in Chandigarh. Custom cakes, pastries, breads, and hands-on baking classes by Chef Anushka Madaan. Serving Chandigarh, Mohali, and Panchkula."
+  description = "Crème It Up is a premium bakery and baking workshop studio in Chandigarh. Custom cakes, pastries, breads, and hands-on baking classes by Chef Anushka Madaan. Serving Chandigarh, Mohali, and Panchkula."
   author = "Anushka Madaan"
   phone = "+91 6284392288"
   email = "Cremeitup@gmail.com"
   whatsapp = "916284392288"
-  address = "Creme It Up Studio, Sector 46 C, Chandigarh"
+  address = "Crème It Up Studio, Sector 46 C, Chandigarh"
   instagram = "https://www.instagram.com/creme.it_up"
   linktree = "https://linktr.ee/cremeitup"
   tagline = "Where baking dreams come true"

@@ -24,7 +24,7 @@ If your "croissant" is soft and bready with no visible layers, it's just a shape
 ## French Pastries You Should Try
 
 ### Croissant
-The ultimate test of a bakery. Look for a golden, shattery exterior and honeycomb interior. At Creme It Up, our croissants use 27 layers of French butter lamination.
+The ultimate test of a bakery. Look for a golden, shattery exterior and honeycomb interior. At Crème It Up, our croissants use 27 layers of French butter lamination.
 
 ### Macaron
 Not to be confused with the coconut macaroon. Real French macarons have a smooth shell, ruffled "feet," and a chewy interior. Common flavours in Chandigarh: pistachio, rose, chocolate, and salted caramel.
@@ -37,7 +37,7 @@ A lemon tart with a crisp pate sucree shell and tangy curd. Simple but requires 
 
 ## Where to Learn French Pastry in Chandigarh
 
-If you want to go beyond eating and learn to *make* French pastries, Creme It Up offers dedicated French pastry workshops covering:
+If you want to go beyond eating and learn to *make* French pastries, Crème It Up offers dedicated French pastry workshops covering:
 
 - Croissant lamination from scratch
 - Macaron technique (Italian meringue method)

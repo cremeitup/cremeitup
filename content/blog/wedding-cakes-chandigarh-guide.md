@@ -1,8 +1,8 @@
 ---
-title: "Wedding Cakes in Chandigarh: Trends, Pricing & How to Choose Your Baker"
+title: "Wedding Cakes in Chandigarh: Trends, Flavours & How to Choose Your Baker"
 slug: "wedding-cakes-chandigarh-guide"
 date: 2025-10-15
-description: "Planning a wedding in Chandigarh? Everything you need to know about wedding cakes  - trends, pricing, flavours, and how to find the perfect baker in the tricity."
+description: "Planning a wedding in Chandigarh? Everything you need to know about wedding cakes  - trends, flavours, and how to find the perfect baker in the tricity."
 image: "images/gallery/vanilla-berry-cake.jpg"
 tags: ["wedding cakes", "chandigarh", "celebrations"]
 keywords: ["wedding cake chandigarh", "wedding cake price chandigarh", "best wedding cake chandigarh mohali", "engagement cake chandigarh", "designer cake chandigarh"]
@@ -24,17 +24,6 @@ Instead of one large cake, couples are doing a curated spread  - a cutting cake 
 ### 4. Indian Fusion
 Rose, pistachio, saffron, and cardamom flavours in a Western cake format. The best of both worlds.
 
-## Wedding Cake Pricing in Chandigarh
-
-| Tier | Serves | Approximate Price |
-|------|--------|------------------|
-| 1 tier | 20-30 | ₹3,000 - ₹6,000 |
-| 2 tier | 40-60 | ₹6,000 - ₹12,000 |
-| 3 tier | 80-100 | ₹12,000 - ₹25,000 |
-| 4+ tier | 100+ | ₹25,000+ |
-
-*Prices vary based on design, flavour, and ingredients.*
-
 ## How to Choose Your Wedding Cake Baker
 
 1. **Schedule a tasting**  - Any serious baker will offer a tasting session
@@ -43,7 +32,7 @@ Rose, pistachio, saffron, and cardamom flavours in a Western cake format. The be
 4. **Confirm ingredients**  - Real butter vs margarine, fresh vs artificial flavours
 5. **Book early**  - During wedding season (Nov-Feb), top bakers fill up weeks in advance
 
-## At Creme It Up
+## At Crème It Up
 
 Chef Anushka specializes in bespoke wedding cakes that balance beauty with flavour. Every cake is custom-designed, baked fresh, and delivered to venues across Chandigarh, Mohali, Panchkula, and Zirakpur.
 
@@ -56,4 +45,4 @@ Popular wedding flavours at our studio:
 
 ---
 
-*Planning your wedding? [Contact Creme It Up](/contact/) to schedule a tasting and consultation.*
+*Planning your wedding? [Contact Crème It Up](/contact/) to schedule a tasting and consultation.*
