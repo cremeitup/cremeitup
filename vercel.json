@@ -4,10 +4,6 @@
       "HUGO_VERSION": "0.156.0"
     }
   },
-  "images": {
-    "minimumCacheTTL": 2678400,
-    "formats": ["image/avif", "image/webp"]
-  },
   "headers": [
     {
       "source": "/(.*)\\.(?:css|js)$",
