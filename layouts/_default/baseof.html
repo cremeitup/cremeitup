@@ -6,7 +6,7 @@
   <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | Creme It Up Chandigarh{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <meta name="author" content="{{ .Site.Params.author }}">
-  <meta name="keywords" content="{{ if .Params.keywords }}{{ delimit .Params.keywords ", " }}{{ else }}{{ delimit .Site.Params.seo.keywords ", " }}{{ end }}">
+  <meta name="keywords" content="{{ if .Params.keywords }}{{ delimit .Params.keywords ", " }}{{ else }}{{ with .Site.Params.seo.keywords }}{{ delimit . ", " }}{{ end }}{{ end }}">
   <link rel="canonical" href="{{ .Permalink }}">
 
   <!-- Open Graph -->
