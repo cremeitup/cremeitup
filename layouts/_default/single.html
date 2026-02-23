@@ -1,0 +1,45 @@
+{{ define "main" }}
+
+{{ if ne .Section "blog" }}
+<div class="page-header">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p>{{ . }}</p>{{ end }}
+  </div>
+</div>
+{{ end }}
+
+<article class="page-article{{ if eq .Section "blog" }} blog-article{{ end }}">
+  <div class="container-narrow">
+    {{ if eq .Section "blog" }}
+    <div class="breadcrumbs">
+      <a href="/">Home</a> &nbsp;/&nbsp; <a href="/blog/">Blog</a> &nbsp;/&nbsp; {{ .Title }}
+    </div>
+
+    <h1>{{ .Title }}</h1>
+
+    <div class="article-meta">
+      {{ .Date.Format "January 2, 2006" }} &middot; {{ .ReadingTime }} min read
+      {{ with .Params.tags }}
+        {{ range . }}<span class="tag">{{ . }}</span> {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <div class="article-content">
+      {{ .Content }}
+    </div>
+  </div>
+</article>
+
+{{ if eq .Section "blog" }}
+<section class="cta-warm">
+  <div class="container">
+    <h2>Craving Something <em>Sweet</em>?</h2>
+    <p>Order a custom cake or join a baking class at Creme It Up, Chandigarh.</p>
+    <a href="/contact/" class="btn btn-light">Get in Touch</a>
+  </div>
+</section>
+{{ end }}
+
+{{ end }}

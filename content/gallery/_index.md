@@ -1,0 +1,6 @@
+---
+title: "Gallery - Creme It Up Creations"
+description: "Browse photos of custom cakes, pastries, breads, and baking workshop moments from Creme It Up bakery in Chandigarh."
+---
+
+Beautiful creations from our Chandigarh studio. Every cake, pastry, and bread is handcrafted with love by Chef Anushka Madaan.

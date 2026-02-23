@@ -1,0 +1,66 @@
+baseURL = "https://www.cremeitup.in/"
+languageCode = "en-in"
+title = "Creme It Up | Best Bakery & Baking Classes in Chandigarh"
+summaryLength = 30
+paginate = 10
+enableRobotsTXT = true
+
+[params]
+  description = "Creme It Up is a premium bakery and baking workshop studio in Sector 46C, Chandigarh. Custom cakes, pastries, breads, and hands-on baking classes by Chef Anushka Madaan."
+  author = "Anushka Madaan"
+  phone = "+91 6284392288"
+  email = "Cremeitup@gmail.com"
+  whatsapp = "916284392288"
+  address = "Creme It Up Studio, Sector 46 C, Chandigarh"
+  instagram = "https://www.instagram.com/creme.it_up"
+  linktree = "https://linktr.ee/cremeitup"
+  tagline = "Where baking dreams come true"
+  locale = "en_IN"
+  ogImage = "/images/og-default.jpg"
+
+[params.seo]
+  keywords = ["bakery in chandigarh", "best bakery chandigarh", "creme it up", "cremeitup", "baking classes chandigarh", "cake shop chandigarh", "custom cakes chandigarh", "pastry shop near me chandigarh", "bakers near me chandigarh mohali panchkula", "wedding cake chandigarh", "baking workshop chandigarh", "french pastries chandigarh", "bread bakery chandigarh", "cake delivery chandigarh"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+[menus]
+  [[menus.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menus.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menus.main]]
+    name = "Classes"
+    url = "/classes/"
+    weight = 3
+  [[menus.main]]
+    name = "Gallery"
+    url = "/gallery/"
+    weight = 4
+  [[menus.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 5
+  [[menus.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 6

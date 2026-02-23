@@ -1,0 +1,35 @@
+{{ define "main" }}
+
+<div class="page-header">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p>{{ . }}</p>{{ end }}
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    {{ if eq .Section "blog" }}
+    <div class="blog-grid">
+      {{ range .Pages }}
+      <a href="{{ .Permalink }}" class="blog-card fade">
+        <div class="blog-card-img">
+          <img src="{{ with .Params.image }}{{ . }}{{ else }}https://images.unsplash.com/photo-1486427944544-d2c246c4df14?w=600&h=380&fit=crop{{ end }}" alt="{{ .Title }}" loading="lazy">
+        </div>
+        <div>
+          <time>{{ .Date.Format "Jan 2, 2006" }}</time>
+          <h3>{{ .Title }}</h3>
+          <p>{{ .Description }}</p>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+    {{ else }}
+    <div class="article-content">
+      {{ .Content }}
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+{{ end }}
