@@ -3,21 +3,21 @@ title: "Where to Find Authentic French Pastries in Chandigarh"
 slug: "french-pastries-chandigarh"
 date: 2025-10-01
 description: "Craving real croissants, macarons, or eclairs in Chandigarh? Here's where to find authentic French pastries made with proper technique and premium ingredients in the tricity."
+image: "images/gallery/sweets-2.jpg"
 tags: ["french pastries", "chandigarh", "patisserie"]
 keywords: ["french pastries chandigarh", "croissants chandigarh", "macarons chandigarh", "patisserie chandigarh", "eclairs chandigarh"]
-image: "https://images.unsplash.com/photo-1587668178277-295251f900ce?w=600&h=340&fit=crop"
 ---
 
-French pastry has a reputation for being intimidating — all that lamination, tempering, and precise technique. But in Chandigarh, a growing number of bakers are bringing **authentic French patisserie** to the tricity.
+French pastry has a reputation for being intimidating  - all that lamination, tempering, and precise technique. But in Chandigarh, a growing number of bakers are bringing **authentic French patisserie** to the tricity.
 
 ## What Makes French Pastry "Authentic"?
 
 It's not just about the name on the menu. Real French pastries require:
 
-- **Proper lamination** — A croissant should have visible, flaky layers
-- **French butter** — Higher fat content than regular butter, creating richer flavour
-- **Patience** — Good croissant dough is folded and rested over 2-3 days
-- **Technique** — Choux pastry, pate sablee, and creme patissiere are foundational skills
+- **Proper lamination**  - A croissant should have visible, flaky layers
+- **French butter**  - Higher fat content than regular butter, creating richer flavour
+- **Patience**  - Good croissant dough is folded and rested over 2-3 days
+- **Technique**  - Choux pastry, pate sablee, and creme patissiere are foundational skills
 
 If your "croissant" is soft and bready with no visible layers, it's just a shaped roll.
 

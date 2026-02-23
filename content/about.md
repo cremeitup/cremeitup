@@ -16,14 +16,14 @@ With over **5 years of experience** in professional pastry arts, Anushka has tra
 
 Her specialties include:
 
-- **French Pastries** — Croissants, macarons, eclairs, and tarts
-- **Chocolate Art** — Bonbons, truffles, and showpieces
-- **Wedding Cakes** — Custom multi-tier celebration cakes
-- **Artisan Breads** — Sourdough, focaccia, and brioche
+- **French Pastries** -Croissants, macarons, eclairs, and tarts
+- **Chocolate Art** -Bonbons, truffles, and showpieces
+- **Wedding Cakes** -Custom multi-tier celebration cakes
+- **Artisan Breads** -Sourdough, focaccia, and brioche
 
 ## Why Choose Creme It Up?
 
-- **Freshly baked, never frozen** — Every order is made from scratch
-- **Premium ingredients** — We use the finest French butter, Belgian chocolate, and organic flour
-- **Serving the tricity** — Chandigarh, Mohali, Panchkula, and Zirakpur
-- **Learn & create** — Our workshops teach real techniques, not just recipes
+- **Freshly baked, never frozen** -Every order is made from scratch
+- **Premium ingredients** -We use the finest French butter, Belgian chocolate, and organic flour
+- **Serving the tricity** -Chandigarh, Mohali, Panchkula, and Zirakpur
+- **Learn & create** -Our workshops teach real techniques, not just recipes

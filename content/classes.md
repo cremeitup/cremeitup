@@ -6,27 +6,27 @@ layout: "single"
 
 ## Our Workshops
 
-Learn the art of baking from **Chef Anushka Madaan** — hands-on workshops designed for all skill levels. Whether you're just starting out or looking to refine advanced techniques, our classes bring real pastry skills to your kitchen.
+Learn the art of baking from **Chef Anushka Madaan** -hands-on workshops designed for all skill levels. Whether you're just starting out or looking to refine advanced techniques, our classes bring real pastry skills to your kitchen.
 
 ### What You'll Learn
 
 Our baking workshops cover everything from basic techniques to advanced pastry arts:
 
-- **Cake Decorating** — Buttercream, fondant, and modern minimalist designs
-- **French Pastry** — Croissants, puff pastry, choux, and lamination
-- **Bread Making** — Sourdough starter, shaping, and scoring
-- **Chocolate Work** — Tempering, bonbons, and ganache techniques
-- **Eggless Baking** — Delicious creations without eggs, from tarts to cheesecakes
+- **Cake Decorating** -Buttercream, fondant, and modern minimalist designs
+- **French Pastry** -Croissants, puff pastry, choux, and lamination
+- **Bread Making** -Sourdough starter, shaping, and scoring
+- **Chocolate Work** -Tempering, bonbons, and ganache techniques
+- **Dessert Styling** -Plating, presentation, and dessert table design
 
 ### Workshop Formats
 
-- **In-Person** — Intimate studio sessions at our Sector 46C, Chandigarh location
-- **Online (Live on Zoom)** — Learn from the comfort of your kitchen with live guidance
-- **Private Sessions** — One-on-one or small group classes tailored to your goals
+- **In-Person** -Intimate studio sessions at our Sector 46C, Chandigarh location
+- **Online (Live on Zoom)** -Learn from the comfort of your kitchen with live guidance
+- **Private Sessions** -One-on-one or small group classes tailored to your goals
 
 ### Who Should Join?
 
-Whether you're a complete beginner looking for your first baking class, or an experienced baker wanting to refine your skills — our workshops are designed for all levels. We keep class sizes small for personal attention.
+Whether you're a complete beginner looking for your first baking class, or an experienced baker wanting to refine your skills -our workshops are designed for all levels. We keep class sizes small for personal attention.
 
 ### What's Included
 

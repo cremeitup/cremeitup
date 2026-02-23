@@ -17,8 +17,15 @@
       {{ range .Pages }}
       <a href="{{ .Permalink }}" class="blog-card fade">
         <div class="blog-card-img">
-          {{ with .Params.image }}
-            <img src="{{ . }}" alt="{{ $.Title }}" width="600" height="380" loading="lazy" decoding="async">
+          {{ $blogImg := false }}
+          {{ with .Params.image }}{{ $blogImg = resources.Get . }}{{ end }}
+          {{ if $blogImg }}
+            {{ $bWebp := $blogImg.Fill "600x380 webp q80" }}
+            {{ $bJpeg := $blogImg.Fill "600x380 jpeg q80" }}
+            <picture>
+              <source type="image/webp" srcset="{{ $bWebp.RelPermalink }}">
+              <img src="{{ $bJpeg.RelPermalink }}" alt="{{ .Title }}" width="600" height="380" loading="lazy" decoding="async">
+            </picture>
           {{ else }}
             <picture>
               <source type="image/webp" srcset="{{ $fallbackWebp.RelPermalink }}">

@@ -6,7 +6,7 @@ layout: "single"
 
 ## Get in Touch
 
-We'd love to hear from you. Whether you want to order a custom cake, book a baking workshop, or just say hello — reach out anytime.
+We'd love to hear from you. Whether you want to order a custom cake, book a baking workshop, or just say hello -reach out anytime.
 
 ### Visit Our Studio
 
@@ -21,15 +21,15 @@ Sector 46 C, Chandigarh 160047
 
 ### Follow Us
 
-- [Instagram — @creme.it_up](https://www.instagram.com/creme.it_up)
+- [Instagram -@creme.it_up](https://www.instagram.com/creme.it_up)
 - [Linktree](https://linktr.ee/cremeitup)
 
 ### Areas We Serve
 
 We deliver custom cakes and accept workshop students from:
 
-- **Chandigarh** — all sectors
-- **Mohali** — Phase 1-11, Aerocity, IT City
-- **Panchkula** — all sectors
-- **Zirakpur** — VIP Road, Dhakoli
+- **Chandigarh** -all sectors
+- **Mohali** -Phase 1-11, Aerocity, IT City
+- **Panchkula** -all sectors
+- **Zirakpur** -VIP Road, Dhakoli
 - **Across Punjab** for online workshops

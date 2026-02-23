@@ -24,6 +24,19 @@
         {{ range . }}<span class="tag">{{ . }}</span> {{ end }}
       {{ end }}
     </div>
+
+    {{ $postImg := false }}
+    {{ with .Params.image }}{{ $postImg = resources.Get . }}{{ end }}
+    {{ if $postImg }}
+      {{ $pWebp := $postImg.Fill "900x500 webp q80" }}
+      {{ $pJpeg := $postImg.Fill "900x500 jpeg q80" }}
+      <div class="blog-hero-img">
+        <picture>
+          <source type="image/webp" srcset="{{ $pWebp.RelPermalink }}">
+          <img src="{{ $pJpeg.RelPermalink }}" alt="{{ .Title }}" width="900" height="500" loading="eager" decoding="async">
+        </picture>
+      </div>
+    {{ end }}
     {{ end }}
 
     <div class="article-content">

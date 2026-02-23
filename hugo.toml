@@ -19,7 +19,7 @@ enableRobotsTXT = true
   ogImage = "/images/og-default.png"
 
 [params.seo]
-  keywords = ["creme it up", "cremeitup", "bakery in chandigarh", "best bakery chandigarh", "baking classes chandigarh", "custom cakes chandigarh", "cake shop chandigarh", "pastry shop chandigarh mohali", "bakers near me chandigarh mohali panchkula", "baking workshop chandigarh", "french pastries chandigarh", "cake delivery chandigarh mohali panchkula", "eggless baking classes", "chef anushka madaan"]
+  keywords = ["creme it up", "cremeitup", "bakery in chandigarh", "best bakery chandigarh", "baking classes chandigarh", "custom cakes chandigarh", "cake shop chandigarh", "pastry shop chandigarh mohali", "bakers near me chandigarh mohali panchkula", "baking workshop chandigarh", "french pastries chandigarh", "cake delivery chandigarh mohali panchkula", "cake delivery chandigarh","chef anushka madaan"]
 
 [taxonomies]
   tag = "tags"

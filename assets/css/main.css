@@ -459,6 +459,163 @@ img { max-width: 100%; height: auto; display: block; }
   line-height: 1.65;
 }
 
+/* ─── Section Intro Text ─── */
+.section-intro {
+  text-align: center;
+  max-width: 700px;
+  margin: -2rem auto 3rem;
+  color: var(--text-soft);
+  line-height: 1.8;
+  font-size: 0.95rem;
+}
+
+/* ─── Stats Grid (Why Choose Us) ─── */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.stat-item {
+  text-align: center;
+  padding: 2rem 1.25rem;
+}
+
+.stat-num {
+  display: block;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3.5rem;
+  font-weight: 300;
+  color: var(--caramel);
+  line-height: 1;
+  margin-bottom: 0.75rem;
+}
+
+.stat-item h3 {
+  font-family: 'Jost', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.75rem;
+}
+
+.stat-item p {
+  font-size: 0.88rem;
+  color: var(--text-soft);
+  line-height: 1.7;
+}
+
+.why-text {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.why-text p {
+  color: var(--text-soft);
+  line-height: 1.85;
+  font-size: 0.95rem;
+}
+
+/* ─── Steps Grid (How It Works) ─── */
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.step-item {
+  text-align: center;
+  padding: 2rem 1.5rem;
+  position: relative;
+}
+
+.step-num {
+  display: block;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 4rem;
+  font-weight: 300;
+  color: var(--caramel);
+  opacity: 0.35;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.step-item h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+.step-item p {
+  font-size: 0.9rem;
+  color: var(--text-soft);
+  line-height: 1.75;
+}
+
+/* ─── FAQ ─── */
+.faq-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  border-bottom: 1px solid rgba(0,0,0,0.07);
+}
+
+.faq-item summary {
+  padding: 1.5rem 0;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--cocoa);
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  transition: color 0.3s;
+}
+
+.faq-item summary:hover { color: var(--caramel); }
+
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::marker { display: none; content: ''; }
+
+.faq-item summary::after {
+  content: '+';
+  font-family: 'Jost', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: var(--caramel);
+  flex-shrink: 0;
+  transition: transform 0.3s;
+}
+
+.faq-item[open] summary::after {
+  transform: rotate(45deg);
+}
+
+.faq-item p {
+  padding: 0 0 1.5rem;
+  font-size: 0.92rem;
+  color: var(--text-soft);
+  line-height: 1.8;
+}
+
+.faq-item a {
+  color: var(--caramel);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.faq-item a:hover { color: var(--cocoa); }
+
 /* ─── Gallery Mosaic ─── */
 .gallery-mosaic {
   columns: 3;
@@ -958,6 +1115,19 @@ img { max-width: 100%; height: auto; display: block; }
   line-height: 1.65;
 }
 
+/* ─── Blog Hero Image ─── */
+.blog-hero-img {
+  margin: 1.5rem 0 2rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.blog-hero-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* ─── Fade Animation ─── */
 .fade {
   opacity: 0;
@@ -999,6 +1169,9 @@ img { max-width: 100%; height: auto; display: block; }
   .about-text { text-align: center; }
   .about-text .label { text-align: center; }
 
+  .stats-grid { grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+  .steps-grid { grid-template-columns: 1fr; gap: 2rem; }
+
   .gallery-mosaic { columns: 2; }
 
   .testimonials-grid { grid-template-columns: 1fr 1fr; }
@@ -1018,6 +1191,8 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 @media (max-width: 480px) {
+  .stats-grid { grid-template-columns: 1fr; }
+
   .gallery-mosaic { columns: 1; }
   .testimonials-grid { grid-template-columns: 1fr; }
   .gallery-page-grid { grid-template-columns: 1fr; }
