@@ -1,0 +1,19 @@
+{
+  "name": "Crème It Up",
+  "short_name": "Crème It Up",
+  "icons": [
+    {
+      "src": "/favicon-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#1E1412",
+  "background_color": "#FFF8F3",
+  "display": "standalone"
+}
