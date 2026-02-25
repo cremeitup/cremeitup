@@ -16,7 +16,7 @@
   {{ $apple := $logo.Fill "180x180 png" }}
   {{ $icon192 := $logo.Fill "192x192 png" }}
   {{ $icon512 := $logo.Fill "512x512 png" }}
-  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
   <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ $favicon32.RelPermalink }}">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ $favicon16.RelPermalink }}">
@@ -68,6 +68,10 @@
   <!-- CSS -->
   {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+
+  {{ if .IsNode }}{{ if or (eq .Kind "taxonomy") (eq .Kind "term") }}
+  <meta name="robots" content="noindex, follow">
+  {{ end }}{{ end }}
 
   {{ block "head" . }}{{ end }}
 </head>
