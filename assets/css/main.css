@@ -301,7 +301,7 @@ img { max-width: 100%; height: auto; display: block; }
   font-weight: 400;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: var(--text-soft);
   white-space: nowrap;
 }
 
@@ -916,7 +916,7 @@ img { max-width: 100%; height: auto; display: block; }
 .footer-brand > p {
   font-size: 0.9rem;
   line-height: 1.65;
-  opacity: 0.5;
+  opacity: 0.65;
   max-width: 300px;
 }
 
@@ -934,7 +934,7 @@ img { max-width: 100%; height: auto; display: block; }
   height: 40px;
   border-radius: 50%;
   border: 1px solid rgba(255,255,255,0.12);
-  color: rgba(255,255,255,0.55);
+  color: rgba(255,255,255,0.7);
   transition: all 0.3s;
 }
 
@@ -946,7 +946,8 @@ img { max-width: 100%; height: auto; display: block; }
 
 .social-icons svg { width: 18px; height: 18px; }
 
-.footer-col h4 {
+.footer-col h4,
+.footer-col-heading {
   font-family: 'Jost', sans-serif;
   font-size: 0.72rem;
   font-weight: 500;
@@ -963,7 +964,7 @@ img { max-width: 100%; height: auto; display: block; }
 .footer-col a,
 .footer-col .contact-line {
   font-size: 0.9rem;
-  opacity: 0.55;
+  opacity: 0.7;
   transition: opacity 0.3s;
 }
 
@@ -973,7 +974,7 @@ img { max-width: 100%; height: auto; display: block; }
   text-align: center;
   padding-top: 2rem;
   font-size: 0.78rem;
-  opacity: 0.3;
+  opacity: 0.6;
 }
 
 #kb-widget {

@@ -155,11 +155,11 @@
       function goTo(i) {
         slides[current].classList.remove('active');
         dots[current].classList.remove('active');
-        dots[current].setAttribute('aria-selected', 'false');
+        dots[current].removeAttribute('aria-current');
         current = i;
         slides[current].classList.add('active');
         dots[current].classList.add('active');
-        dots[current].setAttribute('aria-selected', 'true');
+        dots[current].setAttribute('aria-current', 'true');
       }
 
       function next() { goTo((current + 1) % slides.length); }
