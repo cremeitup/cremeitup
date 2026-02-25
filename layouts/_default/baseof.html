@@ -111,24 +111,30 @@
     const toggle = document.getElementById('navToggle');
     const navLinks = document.getElementById('navLinks');
 
+    function closeMenu() {
+      navLinks.classList.remove('show');
+      toggle.querySelector('.icon-menu').style.display = '';
+      toggle.querySelector('.icon-close').style.display = 'none';
+      toggle.style.color = '';
+      document.body.style.overflow = '';
+    }
+
+    function openMenu() {
+      navLinks.classList.add('show');
+      toggle.querySelector('.icon-menu').style.display = 'none';
+      toggle.querySelector('.icon-close').style.display = '';
+      toggle.style.color = 'var(--cocoa)';
+      document.body.style.overflow = 'hidden';
+    }
+
     if (toggle && navLinks) {
       toggle.addEventListener('click', () => {
-        const isOpen = navLinks.classList.toggle('show');
-        toggle.querySelector('.icon-menu').style.display = isOpen ? 'none' : '';
-        toggle.querySelector('.icon-close').style.display = isOpen ? '' : 'none';
-        // Keep toggle visible on overlay
-        if (isOpen) toggle.style.color = 'var(--cocoa)';
-        else toggle.style.color = '';
+        if (navLinks.classList.contains('show')) closeMenu();
+        else openMenu();
       });
 
-      // Close menu on link click
       navLinks.querySelectorAll('a').forEach(link => {
-        link.addEventListener('click', () => {
-          navLinks.classList.remove('show');
-          toggle.querySelector('.icon-menu').style.display = '';
-          toggle.querySelector('.icon-close').style.display = 'none';
-          toggle.style.color = '';
-        });
+        link.addEventListener('click', closeMenu);
       });
     }
 
@@ -137,6 +143,42 @@
       entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); });
     }, { threshold: 0.1 });
     document.querySelectorAll('.fade').forEach(el => obs.observe(el));
+
+    // Testimonials carousel
+    (function() {
+      const slides = document.querySelectorAll('.testimonial-slide');
+      const dots = document.querySelectorAll('.testimonial-dot');
+      if (!slides.length) return;
+      let current = 0;
+      let timer;
+
+      function goTo(i) {
+        slides[current].classList.remove('active');
+        dots[current].classList.remove('active');
+        dots[current].setAttribute('aria-selected', 'false');
+        current = i;
+        slides[current].classList.add('active');
+        dots[current].classList.add('active');
+        dots[current].setAttribute('aria-selected', 'true');
+      }
+
+      function next() { goTo((current + 1) % slides.length); }
+
+      function startAutoplay() { timer = setInterval(next, 5000); }
+      function stopAutoplay() { clearInterval(timer); }
+
+      dots.forEach(function(dot, i) {
+        dot.addEventListener('click', function() { stopAutoplay(); goTo(i); startAutoplay(); });
+      });
+
+      var carousel = document.querySelector('.testimonials-carousel');
+      if (carousel) {
+        carousel.addEventListener('mouseenter', stopAutoplay);
+        carousel.addEventListener('mouseleave', startAutoplay);
+      }
+
+      startAutoplay();
+    })();
   </script>
 </body>
 </html>

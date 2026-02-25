@@ -12,7 +12,11 @@ Located in **Sector 46C, Chandigarh**, our studio is where desserts are dreamed,
 
 ## Chef Anushka Madaan
 
-With over **5 years of experience** in professional pastry arts, Anushka has trained in French pastry techniques and brings a unique blend of European finesse and Indian warmth to everything she creates.
+With over **5 years of pastry experience**, Chef Anushka Madaan creates desserts that balance artistry with flavour. Trained in French pastry techniques, she brings a unique blend of European finesse and Indian warmth to every creation.
+
+Every item at Crème It Up is baked fresh at our Sector 46C studio in Chandigarh using premium ingredients: French butter, Belgian chocolate, and organic flour. No preservatives, no shortcuts just honest, handcrafted baking.
+
+Beyond the oven, Anushka teaches the craft through intimate workshops that have trained hundreds of aspiring bakers. Whether you're a complete beginner or a seasoned home baker, there's a class designed for you.
 
 ## Why Choose Crème It Up?
 

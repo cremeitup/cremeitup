@@ -39,6 +39,20 @@ Whether you're a complete beginner looking for your first baking class, or an ex
 
 Kindly refer to the PDF to get an in-depth knowledge about all the modules.
 
+### What Our Students Say
+
+> From flour to finish, the entire class was fascinating to learn. The way you broke down each step and explained the 'why' behind it made the learning experience truly enriching. A beautifully conducted session -thank you so much.
+> — **Yuvraj**
+
+> It was amazing to see how simple ingredients turn into something so beautiful. You explained everything so clearly, especially the science behind bread-making, which made it even more interesting. Loved the session and learned a lot. Thank you so much.
+> — **Kiran**
+
+> Such a nice experience, learning something you want to, specially from such a professional who has explanations and patience both.
+> — **Shailender**
+
+> Thank you so much, Chef. The workshop was really enjoyable and informative. I learned a lot about breads.
+> — **Hina**
+
 ### How to Book
 
 Contact us on WhatsApp at [+91 6284392288](https://wa.me/916284392288) to check upcoming workshop dates and reserve your spot.
